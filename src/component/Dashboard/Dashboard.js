@@ -25,7 +25,7 @@ class Dashboard extends Component {
 
     handleDelete(i) {
         axios.delete(`/houses/${i}`)
-        .then(res => this.setState({ houses: res.data}))
+        .then()
     }
 
 
